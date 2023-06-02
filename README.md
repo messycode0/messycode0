@@ -12,7 +12,7 @@ fn main() {
     stdin().read_line(&mut name).expect("Failed to read line");
     println!("Hello, {}!", name);
 
-    if name == "Bon" || name == "Immaculata" {
+    if name == "Bon" || name == "Immaculata" || name == "Xan" {
         println!("What you doing here :O");
     }
 }
