@@ -1,6 +1,6 @@
 # Messycode
 
-### Or formally known as Jacob O'Brien
+### Or known as Jacob O'Brien
 
 ``` rust
 use std::io;
