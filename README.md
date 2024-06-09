@@ -12,7 +12,9 @@ fn main() {
     println!("Hello, Random perosn on that Interwebs!");
 
     let mut name = String::new();
-    stdin().read_line(&mut name).expect("Failed to read line");
+    stdin()
+        .read_line(&mut name)
+        .expect("Failed to read line");
     println!("Hello, {}!", name);
 
     if name == "Mother" || name == "Xavier" || name == friend::list_of_friends.as_str() || name == friend::list_of_family_mem.as_str() { //lol
