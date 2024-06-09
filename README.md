@@ -36,6 +36,10 @@ C          (its a language)
 C++        (its a language ++)
 Lua        (I dont use it much)
 Java       (classes)
+C#         (Microsoft Classes)
+...
+Javascript (just.. no)
+
 ```
 
 
