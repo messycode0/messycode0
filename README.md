@@ -5,6 +5,9 @@
 ``` rust
 use std::io;
 
+use jake::friend;
+use jake::family;
+
 fn main() {
     println!("Hello, Random perosn on that Interwebs!");
 
@@ -12,7 +15,7 @@ fn main() {
     stdin().read_line(&mut name).expect("Failed to read line");
     println!("Hello, {}!", name);
 
-    if name == "Xavier" || name == "Natalie" || name == "Mother" { //lol
+    if name == "Mother" || name == "Xavier" || name == friend::list_of_friends.as_str() || name == friend::list_of_family_mem.as_str() { //lol
         println!("What you doing here :O");
     }
 }
