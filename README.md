@@ -17,7 +17,7 @@ fn main() {
         .expect("Failed to read line");
     println!("Hello, {}!", name);
 
-    if name == "Mother" || name == "Xavier" || name == friend::list_of_friends.as_str() || name == friend::list_of_family_mem.as_str() { //lol
+    if name == "Mother" || name == "Xavier" || name == friend::list_of_friends.as_str() || name == family::list_of_family_mem.as_str() { //lol
         println!("What you doing here :O");
     }
 }
